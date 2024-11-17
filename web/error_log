@@ -1,0 +1,1999 @@
+[21-Aug-2018 03:27:44 UTC] PHP Fatal error:  Class 'JsExpression' not found in /home/grade5/public_html/g5/vendor/webvimark/module-user-management/views/user/_form.php on line 175
+[21-Aug-2018 03:28:42 UTC] PHP Fatal error:  Class 'JsExpression' not found in /home/grade5/public_html/g5/vendor/webvimark/module-user-management/views/user/_form.php on line 175
+[21-Aug-2018 03:30:40 UTC] An Error occurred while handling another error:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/grade5/public_html/g5/controllers/TblbankbranchController.php on line 179.' in /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/grade5/public_html/g5/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/grade5/public_html/g5/controllers/TblbankbranchController.php on line 179.' in /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/grade5/public_html/g5/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/grade5/public_html/g5/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTENT_LENGTH' => '71',
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/grade5/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home/grade5/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'PHPSESSID=ef68c79391e881fd695711eb52026fa1; _csrf=34a5f4ff518c39fe5b34cb678286af0807e94fa1df7876a9838dc9d932629940a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_u73LGVzyhUlviOiALzKVs2Spn7Ub8NH%22%3B%7D',
+    'HTTP_HOST' => 'bursary.sch.lk',
+    'HTTP_REFERER' => 'http://bursary.sch.lk/g5/web/index.php?r=tstudentinfo%2Fupdate&id=15089',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0',
+    'HTTP_X_CSRF_TOKEN' => 'ML_HIndu94U-nBOSgLFE5uZH51bLkYx6pPCYg6cG_BtvyvAROymh_0f0Rv722AuPpwudHZ3ivinUnq_WxT6yUw==',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'PATH' => '/bin:/usr/bin',
+    'QUERY_STRING' => 'r=tblbankbranch%2Fload_branches',
+    'REDIRECT_STATUS' => '200',
+    'REMOTE_ADDR' => '43.224.127.66',
+    'REMOTE_PORT' => '59687',
+    'REQUEST_METHOD' => 'POST',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/g5/web/index.php?r=tblbankbranch%2Fload_branches',
+    'SCRIPT_FILENAME' => '/home/grade5/public_html/g5/web/index.php',
+    'SCRIPT_NAME' => '/g5/web/index.php',
+    'SERVER_ADDR' => '192.168.11.213',
+    'SERVER_ADMIN' => 'webmaster@bursary.sch.lk',
+    'SERVER_NAME' => 'bursary.sch.lk',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'TZ' => 'America/New_York',
+    'UNIQUE_ID' => 'W3uHYMCoC9UAAGiQV7EAAAAG',
+    'PHP_SELF' => '/g5/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1534822240.681324005126953125,
+    'REQUEST_TIME' => 1534822240,
+    'argv' => [
+        'r=tblbankbranch%2Fload_branches',
+    ],
+    'argc' => 1,
+]
+[21-Aug-2018 03:30:47 UTC] An Error occurred while handling another error:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/grade5/public_html/g5/controllers/TblbankbranchController.php on line 179.' in /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/grade5/public_html/g5/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/grade5/public_html/g5/controllers/TblbankbranchController.php on line 179.' in /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/grade5/public_html/g5/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/grade5/public_html/g5/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTENT_LENGTH' => '71',
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/grade5/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home/grade5/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'PHPSESSID=ef68c79391e881fd695711eb52026fa1; _csrf=34a5f4ff518c39fe5b34cb678286af0807e94fa1df7876a9838dc9d932629940a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_u73LGVzyhUlviOiALzKVs2Spn7Ub8NH%22%3B%7D',
+    'HTTP_HOST' => 'bursary.sch.lk',
+    'HTTP_REFERER' => 'http://bursary.sch.lk/g5/web/index.php?r=tstudentinfo%2Fupdate&id=15089',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0',
+    'HTTP_X_CSRF_TOKEN' => 'ML_HIndu94U-nBOSgLFE5uZH51bLkYx6pPCYg6cG_BtvyvAROymh_0f0Rv722AuPpwudHZ3ivinUnq_WxT6yUw==',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'PATH' => '/bin:/usr/bin',
+    'QUERY_STRING' => 'r=tblbankbranch%2Fload_branches',
+    'REDIRECT_STATUS' => '200',
+    'REMOTE_ADDR' => '43.224.127.66',
+    'REMOTE_PORT' => '59695',
+    'REQUEST_METHOD' => 'POST',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/g5/web/index.php?r=tblbankbranch%2Fload_branches',
+    'SCRIPT_FILENAME' => '/home/grade5/public_html/g5/web/index.php',
+    'SCRIPT_NAME' => '/g5/web/index.php',
+    'SERVER_ADDR' => '192.168.11.213',
+    'SERVER_ADMIN' => 'webmaster@bursary.sch.lk',
+    'SERVER_NAME' => 'bursary.sch.lk',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'TZ' => 'America/New_York',
+    'UNIQUE_ID' => 'W3uHZ8CoC9UAAGhbc9sAAAAX',
+    'PHP_SELF' => '/g5/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1534822247.2844231128692626953125,
+    'REQUEST_TIME' => 1534822247,
+    'argv' => [
+        'r=tblbankbranch%2Fload_branches',
+    ],
+    'argc' => 1,
+]
+[21-Aug-2018 03:31:00 UTC] An Error occurred while handling another error:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/grade5/public_html/g5/controllers/TblbankbranchController.php on line 179.' in /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/grade5/public_html/g5/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/grade5/public_html/g5/controllers/TblbankbranchController.php on line 179.' in /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/grade5/public_html/g5/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/grade5/public_html/g5/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTENT_LENGTH' => '71',
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/grade5/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home/grade5/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'PHPSESSID=ef68c79391e881fd695711eb52026fa1; _csrf=34a5f4ff518c39fe5b34cb678286af0807e94fa1df7876a9838dc9d932629940a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_u73LGVzyhUlviOiALzKVs2Spn7Ub8NH%22%3B%7D',
+    'HTTP_HOST' => 'bursary.sch.lk',
+    'HTTP_REFERER' => 'http://bursary.sch.lk/g5/web/index.php?r=tstudentinfo%2Fupdate&id=15089',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0',
+    'HTTP_X_CSRF_TOKEN' => 'ML_HIndu94U-nBOSgLFE5uZH51bLkYx6pPCYg6cG_BtvyvAROymh_0f0Rv722AuPpwudHZ3ivinUnq_WxT6yUw==',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'PATH' => '/bin:/usr/bin',
+    'QUERY_STRING' => 'r=tblbankbranch%2Fload_branches',
+    'REDIRECT_STATUS' => '200',
+    'REMOTE_ADDR' => '43.224.127.66',
+    'REMOTE_PORT' => '59700',
+    'REQUEST_METHOD' => 'POST',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/g5/web/index.php?r=tblbankbranch%2Fload_branches',
+    'SCRIPT_FILENAME' => '/home/grade5/public_html/g5/web/index.php',
+    'SCRIPT_NAME' => '/g5/web/index.php',
+    'SERVER_ADDR' => '192.168.11.213',
+    'SERVER_ADMIN' => 'webmaster@bursary.sch.lk',
+    'SERVER_NAME' => 'bursary.sch.lk',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'TZ' => 'America/New_York',
+    'UNIQUE_ID' => 'W3uHdMCoC9UAAGiQV7QAAAAG',
+    'PHP_SELF' => '/g5/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1534822260.5792229175567626953125,
+    'REQUEST_TIME' => 1534822260,
+    'argv' => [
+        'r=tblbankbranch%2Fload_branches',
+    ],
+    'argc' => 1,
+]
+[21-Aug-2018 03:31:16 UTC] An Error occurred while handling another error:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/grade5/public_html/g5/controllers/TblbankbranchController.php on line 179.' in /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/grade5/public_html/g5/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/grade5/public_html/g5/controllers/TblbankbranchController.php on line 179.' in /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/grade5/public_html/g5/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/grade5/public_html/g5/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTENT_LENGTH' => '71',
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/grade5/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home/grade5/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'PHPSESSID=ef68c79391e881fd695711eb52026fa1; _csrf=34a5f4ff518c39fe5b34cb678286af0807e94fa1df7876a9838dc9d932629940a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_u73LGVzyhUlviOiALzKVs2Spn7Ub8NH%22%3B%7D',
+    'HTTP_HOST' => 'bursary.sch.lk',
+    'HTTP_REFERER' => 'http://bursary.sch.lk/g5/web/index.php?r=tstudentinfo%2Fupdate&id=15089',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0',
+    'HTTP_X_CSRF_TOKEN' => 'ML_HIndu94U-nBOSgLFE5uZH51bLkYx6pPCYg6cG_BtvyvAROymh_0f0Rv722AuPpwudHZ3ivinUnq_WxT6yUw==',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'PATH' => '/bin:/usr/bin',
+    'QUERY_STRING' => 'r=tblbankbranch%2Fload_branches',
+    'REDIRECT_STATUS' => '200',
+    'REMOTE_ADDR' => '43.224.127.66',
+    'REMOTE_PORT' => '59701',
+    'REQUEST_METHOD' => 'POST',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/g5/web/index.php?r=tblbankbranch%2Fload_branches',
+    'SCRIPT_FILENAME' => '/home/grade5/public_html/g5/web/index.php',
+    'SCRIPT_NAME' => '/g5/web/index.php',
+    'SERVER_ADDR' => '192.168.11.213',
+    'SERVER_ADMIN' => 'webmaster@bursary.sch.lk',
+    'SERVER_NAME' => 'bursary.sch.lk',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'TZ' => 'America/New_York',
+    'UNIQUE_ID' => 'W3uHg8CoC9UAAGoyl9kAAAAM',
+    'PHP_SELF' => '/g5/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1534822275.813335895538330078125,
+    'REQUEST_TIME' => 1534822275,
+    'argv' => [
+        'r=tblbankbranch%2Fload_branches',
+    ],
+    'argc' => 1,
+]
+[21-Aug-2018 06:27:43 UTC] PHP Fatal error:  Class 'JsExpression' not found in /home/grade5/public_html/g5/vendor/webvimark/module-user-management/views/user/_form.php on line 175
+[21-Aug-2018 09:19:53 UTC] An Error occurred while handling another error:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/grade5/public_html/g5/controllers/SiteController.php on line 171.' in /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/grade5/public_html/g5/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/grade5/public_html/g5/controllers/SiteController.php on line 171.' in /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/grade5/public_html/g5/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/grade5/public_html/g5/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTENT_LENGTH' => '76',
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/grade5/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home/grade5/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'PHPSESSID=080646c3a4ed44b1ca8d8d874f96c07b; _csrf=79279da13a8d1d6e8924ad5034858a32f3ff8a02f79f0f2a2132019876719c19a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22MWjSFeyzAdr4vdOh3b6EoeiWtuBn2_zI%22%3B%7D',
+    'HTTP_HOST' => 'bursary.sch.lk',
+    'HTTP_REFERER' => 'http://bursary.sch.lk/g5/web/index.php?r=user-management%2Fuser%2Fcreate',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0',
+    'HTTP_X_CSRF_TOKEN' => '6t4ZO0T2lTKCOZjcUnTHXPyOaOf3yVOh9mbQspfyjomniXNoApPsSMNd6ugkEIg0z-xeopisOvaCE5Lcpa30wA==',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'PATH' => '/bin:/usr/bin',
+    'QUERY_STRING' => 'r=site%2Fload_user_level_values',
+    'REDIRECT_STATUS' => '200',
+    'REMOTE_ADDR' => '43.224.127.66',
+    'REMOTE_PORT' => '63984',
+    'REQUEST_METHOD' => 'POST',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/g5/web/index.php?r=site%2Fload_user_level_values',
+    'SCRIPT_FILENAME' => '/home/grade5/public_html/g5/web/index.php',
+    'SCRIPT_NAME' => '/g5/web/index.php',
+    'SERVER_ADDR' => '192.168.11.213',
+    'SERVER_ADMIN' => 'webmaster@bursary.sch.lk',
+    'SERVER_NAME' => 'bursary.sch.lk',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'TZ' => 'America/New_York',
+    'UNIQUE_ID' => 'W3vZN8CoC9UAAGCAKawAAAAA',
+    'PHP_SELF' => '/g5/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1534843191.6420500278472900390625,
+    'REQUEST_TIME' => 1534843191,
+    'argv' => [
+        'r=site%2Fload_user_level_values',
+    ],
+    'argc' => 1,
+]
+[21-Aug-2018 09:19:57 UTC] An Error occurred while handling another error:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/grade5/public_html/g5/controllers/SiteController.php on line 187.' in /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/grade5/public_html/g5/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/grade5/public_html/g5/controllers/SiteController.php on line 187.' in /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/grade5/public_html/g5/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/grade5/public_html/g5/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTENT_LENGTH' => '72',
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/grade5/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home/grade5/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'PHPSESSID=080646c3a4ed44b1ca8d8d874f96c07b; _csrf=79279da13a8d1d6e8924ad5034858a32f3ff8a02f79f0f2a2132019876719c19a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22MWjSFeyzAdr4vdOh3b6EoeiWtuBn2_zI%22%3B%7D',
+    'HTTP_HOST' => 'bursary.sch.lk',
+    'HTTP_REFERER' => 'http://bursary.sch.lk/g5/web/index.php?r=user-management%2Fuser%2Fcreate',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0',
+    'HTTP_X_CSRF_TOKEN' => '6t4ZO0T2lTKCOZjcUnTHXPyOaOf3yVOh9mbQspfyjomniXNoApPsSMNd6ugkEIg0z-xeopisOvaCE5Lcpa30wA==',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'PATH' => '/bin:/usr/bin',
+    'QUERY_STRING' => 'r=site%2Fload_user_level_values',
+    'REDIRECT_STATUS' => '200',
+    'REMOTE_ADDR' => '43.224.127.66',
+    'REMOTE_PORT' => '63984',
+    'REQUEST_METHOD' => 'POST',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/g5/web/index.php?r=site%2Fload_user_level_values',
+    'SCRIPT_FILENAME' => '/home/grade5/public_html/g5/web/index.php',
+    'SCRIPT_NAME' => '/g5/web/index.php',
+    'SERVER_ADDR' => '192.168.11.213',
+    'SERVER_ADMIN' => 'webmaster@bursary.sch.lk',
+    'SERVER_NAME' => 'bursary.sch.lk',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'TZ' => 'America/New_York',
+    'UNIQUE_ID' => 'W3vZO8CoC9UAAGCAKa0AAAAA',
+    'PHP_SELF' => '/g5/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1534843195.721640110015869140625,
+    'REQUEST_TIME' => 1534843195,
+    'argv' => [
+        'r=site%2Fload_user_level_values',
+    ],
+    'argc' => 1,
+]
+[21-Aug-2018 09:20:01 UTC] An Error occurred while handling another error:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/grade5/public_html/g5/controllers/SiteController.php on line 203.' in /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/grade5/public_html/g5/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/grade5/public_html/g5/controllers/SiteController.php on line 203.' in /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/grade5/public_html/g5/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/grade5/public_html/g5/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTENT_LENGTH' => '80',
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/grade5/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home/grade5/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'PHPSESSID=080646c3a4ed44b1ca8d8d874f96c07b; _csrf=79279da13a8d1d6e8924ad5034858a32f3ff8a02f79f0f2a2132019876719c19a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22MWjSFeyzAdr4vdOh3b6EoeiWtuBn2_zI%22%3B%7D',
+    'HTTP_HOST' => 'bursary.sch.lk',
+    'HTTP_REFERER' => 'http://bursary.sch.lk/g5/web/index.php?r=user-management%2Fuser%2Fcreate',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0',
+    'HTTP_X_CSRF_TOKEN' => '6t4ZO0T2lTKCOZjcUnTHXPyOaOf3yVOh9mbQspfyjomniXNoApPsSMNd6ugkEIg0z-xeopisOvaCE5Lcpa30wA==',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'PATH' => '/bin:/usr/bin',
+    'QUERY_STRING' => 'r=site%2Fload_user_level_values',
+    'REDIRECT_STATUS' => '200',
+    'REMOTE_ADDR' => '43.224.127.66',
+    'REMOTE_PORT' => '63984',
+    'REQUEST_METHOD' => 'POST',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/g5/web/index.php?r=site%2Fload_user_level_values',
+    'SCRIPT_FILENAME' => '/home/grade5/public_html/g5/web/index.php',
+    'SCRIPT_NAME' => '/g5/web/index.php',
+    'SERVER_ADDR' => '192.168.11.213',
+    'SERVER_ADMIN' => 'webmaster@bursary.sch.lk',
+    'SERVER_NAME' => 'bursary.sch.lk',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'TZ' => 'America/New_York',
+    'UNIQUE_ID' => 'W3vZP8CoC9UAAGCAKa4AAAAA',
+    'PHP_SELF' => '/g5/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1534843199.4470350742340087890625,
+    'REQUEST_TIME' => 1534843199,
+    'argv' => [
+        'r=site%2Fload_user_level_values',
+    ],
+    'argc' => 1,
+]
+[21-Aug-2018 09:20:04 UTC] An Error occurred while handling another error:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/grade5/public_html/g5/controllers/SiteController.php on line 210.' in /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/grade5/public_html/g5/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/grade5/public_html/g5/controllers/SiteController.php on line 210.' in /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/grade5/public_html/g5/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/grade5/public_html/g5/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTENT_LENGTH' => '80',
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/grade5/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home/grade5/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'PHPSESSID=080646c3a4ed44b1ca8d8d874f96c07b; _csrf=79279da13a8d1d6e8924ad5034858a32f3ff8a02f79f0f2a2132019876719c19a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22MWjSFeyzAdr4vdOh3b6EoeiWtuBn2_zI%22%3B%7D',
+    'HTTP_HOST' => 'bursary.sch.lk',
+    'HTTP_REFERER' => 'http://bursary.sch.lk/g5/web/index.php?r=user-management%2Fuser%2Fcreate',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0',
+    'HTTP_X_CSRF_TOKEN' => '6t4ZO0T2lTKCOZjcUnTHXPyOaOf3yVOh9mbQspfyjomniXNoApPsSMNd6ugkEIg0z-xeopisOvaCE5Lcpa30wA==',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'PATH' => '/bin:/usr/bin',
+    'QUERY_STRING' => 'r=site%2Fload_user_level_values',
+    'REDIRECT_STATUS' => '200',
+    'REMOTE_ADDR' => '43.224.127.66',
+    'REMOTE_PORT' => '63984',
+    'REQUEST_METHOD' => 'POST',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/g5/web/index.php?r=site%2Fload_user_level_values',
+    'SCRIPT_FILENAME' => '/home/grade5/public_html/g5/web/index.php',
+    'SCRIPT_NAME' => '/g5/web/index.php',
+    'SERVER_ADDR' => '192.168.11.213',
+    'SERVER_ADMIN' => 'webmaster@bursary.sch.lk',
+    'SERVER_NAME' => 'bursary.sch.lk',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'TZ' => 'America/New_York',
+    'UNIQUE_ID' => 'W3vZQ8CoC9UAAGCAKa8AAAAA',
+    'PHP_SELF' => '/g5/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1534843204.630117893218994140625,
+    'REQUEST_TIME' => 1534843204,
+    'argv' => [
+        'r=site%2Fload_user_level_values',
+    ],
+    'argc' => 1,
+]
+[21-Aug-2018 09:20:50 UTC] An Error occurred while handling another error:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/grade5/public_html/g5/controllers/MschoollistController.php on line 193.' in /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/grade5/public_html/g5/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/grade5/public_html/g5/controllers/MschoollistController.php on line 193.' in /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/grade5/public_html/g5/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/grade5/public_html/g5/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTENT_LENGTH' => '76',
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/grade5/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home/grade5/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'PHPSESSID=080646c3a4ed44b1ca8d8d874f96c07b; _csrf=79279da13a8d1d6e8924ad5034858a32f3ff8a02f79f0f2a2132019876719c19a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22MWjSFeyzAdr4vdOh3b6EoeiWtuBn2_zI%22%3B%7D',
+    'HTTP_HOST' => 'bursary.sch.lk',
+    'HTTP_REFERER' => 'http://bursary.sch.lk/g5/web/index.php?r=mschoollist%2Fcreate',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0',
+    'HTTP_X_CSRF_TOKEN' => 'yjE3WFb0Ctf9nFhh_9OcN2qacYJWrAxEubcKQijCbkuHZl0LEJFzrbz4KlWJt9NfWfhHxznJZRPNwkgsGp0UAg==',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'PATH' => '/bin:/usr/bin',
+    'QUERY_STRING' => 'r=mschoollist%2Fload_zones',
+    'REDIRECT_STATUS' => '200',
+    'REMOTE_ADDR' => '43.224.127.66',
+    'REMOTE_PORT' => '64025',
+    'REQUEST_METHOD' => 'POST',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/g5/web/index.php?r=mschoollist%2Fload_zones',
+    'SCRIPT_FILENAME' => '/home/grade5/public_html/g5/web/index.php',
+    'SCRIPT_NAME' => '/g5/web/index.php',
+    'SERVER_ADDR' => '192.168.11.213',
+    'SERVER_ADMIN' => 'webmaster@bursary.sch.lk',
+    'SERVER_NAME' => 'bursary.sch.lk',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'TZ' => 'America/New_York',
+    'UNIQUE_ID' => 'W3vZcsCoC9UAAGI0e-YAAAAa',
+    'PHP_SELF' => '/g5/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1534843250.133647918701171875,
+    'REQUEST_TIME' => 1534843250,
+    'argv' => [
+        'r=mschoollist%2Fload_zones',
+    ],
+    'argc' => 1,
+]
+[21-Aug-2018 09:21:00 UTC] An Error occurred while handling another error:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/grade5/public_html/g5/controllers/MschoollistController.php on line 193.' in /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/grade5/public_html/g5/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/grade5/public_html/g5/controllers/MschoollistController.php on line 193.' in /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/grade5/public_html/g5/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/grade5/public_html/g5/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTENT_LENGTH' => '76',
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/grade5/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home/grade5/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'PHPSESSID=080646c3a4ed44b1ca8d8d874f96c07b; _csrf=79279da13a8d1d6e8924ad5034858a32f3ff8a02f79f0f2a2132019876719c19a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22MWjSFeyzAdr4vdOh3b6EoeiWtuBn2_zI%22%3B%7D',
+    'HTTP_HOST' => 'bursary.sch.lk',
+    'HTTP_REFERER' => 'http://bursary.sch.lk/g5/web/index.php?r=mschoollist%2Fcreate',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0',
+    'HTTP_X_CSRF_TOKEN' => 'yjE3WFb0Ctf9nFhh_9OcN2qacYJWrAxEubcKQijCbkuHZl0LEJFzrbz4KlWJt9NfWfhHxznJZRPNwkgsGp0UAg==',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'PATH' => '/bin:/usr/bin',
+    'QUERY_STRING' => 'r=mschoollist%2Fload_zones',
+    'REDIRECT_STATUS' => '200',
+    'REMOTE_ADDR' => '43.224.127.66',
+    'REMOTE_PORT' => '64030',
+    'REQUEST_METHOD' => 'POST',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/g5/web/index.php?r=mschoollist%2Fload_zones',
+    'SCRIPT_FILENAME' => '/home/grade5/public_html/g5/web/index.php',
+    'SCRIPT_NAME' => '/g5/web/index.php',
+    'SERVER_ADDR' => '192.168.11.213',
+    'SERVER_ADMIN' => 'webmaster@bursary.sch.lk',
+    'SERVER_NAME' => 'bursary.sch.lk',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'TZ' => 'America/New_York',
+    'UNIQUE_ID' => 'W3vZfMCoC9UAAGJBtdkAAAAl',
+    'PHP_SELF' => '/g5/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1534843260.230926036834716796875,
+    'REQUEST_TIME' => 1534843260,
+    'argv' => [
+        'r=mschoollist%2Fload_zones',
+    ],
+    'argc' => 1,
+]
+[21-Aug-2018 17:54:44 UTC] An Error occurred while handling another error:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/grade5/public_html/g5/controllers/MschoollistController.php on line 193.' in /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/grade5/public_html/g5/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/grade5/public_html/g5/controllers/MschoollistController.php on line 193.' in /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/grade5/public_html/g5/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/grade5/public_html/g5/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTENT_LENGTH' => '76',
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/grade5/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home/grade5/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'PHPSESSID=3c953c31eafba680a9a11f840aec91de; _csrf=ecf8fc8dc26de262602f673d6d34e1d02d511fdd4c0aadf0c948bd5ff805d3d9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_trq0xMyCWzq95yIA6C3FvEi1Fu2Njy2%22%3B%7D',
+    'HTTP_HOST' => 'bursary.sch.lk',
+    'HTTP_REFERER' => 'http://bursary.sch.lk/g5/web/index.php?r=mschoollist%2Fcreate',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0',
+    'HTTP_X_CSRF_TOKEN' => 'afAm-6z5EosKekBx12PNrs-WDwdEsYNYzRrDjEb3jXQ2hFSKnIFf8kktOgDuVrTnjqBMNALHxjH8XLa-CJ30Rg==',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'PATH' => '/bin:/usr/bin',
+    'QUERY_STRING' => 'r=mschoollist%2Fload_zones',
+    'REDIRECT_STATUS' => '200',
+    'REMOTE_ADDR' => '43.224.127.66',
+    'REMOTE_PORT' => '17405',
+    'REQUEST_METHOD' => 'POST',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/g5/web/index.php?r=mschoollist%2Fload_zones',
+    'SCRIPT_FILENAME' => '/home/grade5/public_html/g5/web/index.php',
+    'SCRIPT_NAME' => '/g5/web/index.php',
+    'SERVER_ADDR' => '192.168.11.213',
+    'SERVER_ADMIN' => 'webmaster@bursary.sch.lk',
+    'SERVER_NAME' => 'bursary.sch.lk',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'TZ' => 'America/New_York',
+    'UNIQUE_ID' => 'W3xR5MCoC9UAAF9DaiYAAAAB',
+    'PHP_SELF' => '/g5/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1534874084.0595309734344482421875,
+    'REQUEST_TIME' => 1534874084,
+    'argv' => [
+        'r=mschoollist%2Fload_zones',
+    ],
+    'argc' => 1,
+]
+[21-Aug-2018 17:56:29 UTC] An Error occurred while handling another error:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/grade5/public_html/g5/controllers/MschoollistController.php on line 197.' in /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/grade5/public_html/g5/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/grade5/public_html/g5/controllers/MschoollistController.php on line 197.' in /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/grade5/public_html/g5/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/grade5/public_html/g5/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTENT_LENGTH' => '74',
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/grade5/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home/grade5/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'PHPSESSID=3c953c31eafba680a9a11f840aec91de; _csrf=ecf8fc8dc26de262602f673d6d34e1d02d511fdd4c0aadf0c948bd5ff805d3d9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_trq0xMyCWzq95yIA6C3FvEi1Fu2Njy2%22%3B%7D',
+    'HTTP_HOST' => 'bursary.sch.lk',
+    'HTTP_REFERER' => 'http://bursary.sch.lk/g5/web/index.php?r=mschoollist%2Fcreate',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0',
+    'HTTP_X_CSRF_TOKEN' => 'edO05H_LTEp-o-h93nLbhbe7wyxYVRPr6NZD620HnUcmp8aVT7MBMz30kgznR6LM9o2AHx4jVoLZkDbZI23kdQ==',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'PATH' => '/bin:/usr/bin',
+    'QUERY_STRING' => 'r=mschoollist%2Fload_zones',
+    'REDIRECT_STATUS' => '200',
+    'REMOTE_ADDR' => '43.224.127.66',
+    'REMOTE_PORT' => '17412',
+    'REQUEST_METHOD' => 'POST',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/g5/web/index.php?r=mschoollist%2Fload_zones',
+    'SCRIPT_FILENAME' => '/home/grade5/public_html/g5/web/index.php',
+    'SCRIPT_NAME' => '/g5/web/index.php',
+    'SERVER_ADDR' => '192.168.11.213',
+    'SERVER_ADMIN' => 'webmaster@bursary.sch.lk',
+    'SERVER_NAME' => 'bursary.sch.lk',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'TZ' => 'America/New_York',
+    'UNIQUE_ID' => 'W3xSTcCoC9UAAGQZHagAAABS',
+    'PHP_SELF' => '/g5/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1534874189.6853559017181396484375,
+    'REQUEST_TIME' => 1534874189,
+    'argv' => [
+        'r=mschoollist%2Fload_zones',
+    ],
+    'argc' => 1,
+]
+[21-Aug-2018 17:56:36 UTC] An Error occurred while handling another error:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/grade5/public_html/g5/controllers/MschoollistController.php on line 193.' in /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/grade5/public_html/g5/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/grade5/public_html/g5/controllers/MschoollistController.php on line 193.' in /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/grade5/public_html/g5/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/grade5/public_html/g5/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTENT_LENGTH' => '76',
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/grade5/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home/grade5/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'PHPSESSID=3c953c31eafba680a9a11f840aec91de; _csrf=ecf8fc8dc26de262602f673d6d34e1d02d511fdd4c0aadf0c948bd5ff805d3d9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_trq0xMyCWzq95yIA6C3FvEi1Fu2Njy2%22%3B%7D',
+    'HTTP_HOST' => 'bursary.sch.lk',
+    'HTTP_REFERER' => 'http://bursary.sch.lk/g5/web/index.php?r=mschoollist%2Fcreate',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0',
+    'HTTP_X_CSRF_TOKEN' => 'edO05H_LTEp-o-h93nLbhbe7wyxYVRPr6NZD620HnUcmp8aVT7MBMz30kgznR6LM9o2AHx4jVoLZkDbZI23kdQ==',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'PATH' => '/bin:/usr/bin',
+    'QUERY_STRING' => 'r=mschoollist%2Fload_zones',
+    'REDIRECT_STATUS' => '200',
+    'REMOTE_ADDR' => '43.224.127.66',
+    'REMOTE_PORT' => '17414',
+    'REQUEST_METHOD' => 'POST',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/g5/web/index.php?r=mschoollist%2Fload_zones',
+    'SCRIPT_FILENAME' => '/home/grade5/public_html/g5/web/index.php',
+    'SCRIPT_NAME' => '/g5/web/index.php',
+    'SERVER_ADDR' => '192.168.11.213',
+    'SERVER_ADMIN' => 'webmaster@bursary.sch.lk',
+    'SERVER_NAME' => 'bursary.sch.lk',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'TZ' => 'America/New_York',
+    'UNIQUE_ID' => 'W3xSVMCoC9UAAGQFk34AAAA@',
+    'PHP_SELF' => '/g5/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1534874196.406487941741943359375,
+    'REQUEST_TIME' => 1534874196,
+    'argv' => [
+        'r=mschoollist%2Fload_zones',
+    ],
+    'argc' => 1,
+]
+[21-Aug-2018 17:57:12 UTC] An Error occurred while handling another error:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/grade5/public_html/g5/controllers/MschoollistController.php on line 193.' in /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/grade5/public_html/g5/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/grade5/public_html/g5/controllers/MschoollistController.php on line 193.' in /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/grade5/public_html/g5/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/grade5/public_html/g5/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTENT_LENGTH' => '76',
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/grade5/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home/grade5/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'PHPSESSID=3c953c31eafba680a9a11f840aec91de; _csrf=ecf8fc8dc26de262602f673d6d34e1d02d511fdd4c0aadf0c948bd5ff805d3d9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_trq0xMyCWzq95yIA6C3FvEi1Fu2Njy2%22%3B%7D',
+    'HTTP_HOST' => 'bursary.sch.lk',
+    'HTTP_REFERER' => 'http://bursary.sch.lk/g5/web/index.php?r=mschoollist%2Fcreate',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0',
+    'HTTP_X_CSRF_TOKEN' => 'crqTCbvJbAtv2ByV7YOyPVc4T4gC3LEJOj51XrJ9XT8tzuF4i7EhciyPZuTUtst0Fg4Mu0Sq9GALeABs_BckDQ==',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'PATH' => '/bin:/usr/bin',
+    'QUERY_STRING' => 'r=mschoollist%2Fload_zones',
+    'REDIRECT_STATUS' => '200',
+    'REMOTE_ADDR' => '43.224.127.66',
+    'REMOTE_PORT' => '17419',
+    'REQUEST_METHOD' => 'POST',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/g5/web/index.php?r=mschoollist%2Fload_zones',
+    'SCRIPT_FILENAME' => '/home/grade5/public_html/g5/web/index.php',
+    'SCRIPT_NAME' => '/g5/web/index.php',
+    'SERVER_ADDR' => '192.168.11.213',
+    'SERVER_ADMIN' => 'webmaster@bursary.sch.lk',
+    'SERVER_NAME' => 'bursary.sch.lk',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'TZ' => 'America/New_York',
+    'UNIQUE_ID' => 'W3xSeMCoC9UAAGQDdrsAAAA8',
+    'PHP_SELF' => '/g5/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1534874232.3989880084991455078125,
+    'REQUEST_TIME' => 1534874232,
+    'argv' => [
+        'r=mschoollist%2Fload_zones',
+    ],
+    'argc' => 1,
+]
+[21-Aug-2018 17:57:49 UTC] An Error occurred while handling another error:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/grade5/public_html/g5/controllers/MschoollistController.php on line 193.' in /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/grade5/public_html/g5/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/grade5/public_html/g5/controllers/MschoollistController.php on line 193.' in /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/grade5/public_html/g5/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/grade5/public_html/g5/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTENT_LENGTH' => '76',
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/grade5/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home/grade5/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'PHPSESSID=3c953c31eafba680a9a11f840aec91de; _csrf=ecf8fc8dc26de262602f673d6d34e1d02d511fdd4c0aadf0c948bd5ff805d3d9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_trq0xMyCWzq95yIA6C3FvEi1Fu2Njy2%22%3B%7D',
+    'HTTP_HOST' => 'bursary.sch.lk',
+    'HTTP_REFERER' => 'http://bursary.sch.lk/g5/web/index.php?r=mschoollist%2Fcreate',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0',
+    'HTTP_X_CSRF_TOKEN' => '32WoB4Vd0n3WwCj6feyY9cygMGvLW83H_VyJJSfv05CAEdp2tSWfBJWXUotE2eG8jZZzWI0tiK7MGvwXaYWqog==',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'PATH' => '/bin:/usr/bin',
+    'QUERY_STRING' => 'r=mschoollist%2Fload_zones',
+    'REDIRECT_STATUS' => '200',
+    'REMOTE_ADDR' => '43.224.127.66',
+    'REMOTE_PORT' => '17423',
+    'REQUEST_METHOD' => 'POST',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/g5/web/index.php?r=mschoollist%2Fload_zones',
+    'SCRIPT_FILENAME' => '/home/grade5/public_html/g5/web/index.php',
+    'SCRIPT_NAME' => '/g5/web/index.php',
+    'SERVER_ADDR' => '192.168.11.213',
+    'SERVER_ADMIN' => 'webmaster@bursary.sch.lk',
+    'SERVER_NAME' => 'bursary.sch.lk',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'TZ' => 'America/New_York',
+    'UNIQUE_ID' => 'W3xSnMCoC9UAAGQQ4IAAAABJ',
+    'PHP_SELF' => '/g5/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1534874268.8419170379638671875,
+    'REQUEST_TIME' => 1534874268,
+    'argv' => [
+        'r=mschoollist%2Fload_zones',
+    ],
+    'argc' => 1,
+]
+[21-Aug-2018 17:58:02 UTC] An Error occurred while handling another error:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/grade5/public_html/g5/controllers/MschoollistController.php on line 193.' in /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/grade5/public_html/g5/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/grade5/public_html/g5/controllers/MschoollistController.php on line 193.' in /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/grade5/public_html/g5/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/grade5/public_html/g5/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTENT_LENGTH' => '76',
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/grade5/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home/grade5/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'PHPSESSID=3c953c31eafba680a9a11f840aec91de; _csrf=ecf8fc8dc26de262602f673d6d34e1d02d511fdd4c0aadf0c948bd5ff805d3d9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_trq0xMyCWzq95yIA6C3FvEi1Fu2Njy2%22%3B%7D',
+    'HTTP_HOST' => 'bursary.sch.lk',
+    'HTTP_REFERER' => 'http://bursary.sch.lk/g5/web/index.php?r=mschoollist%2Fcreate',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0',
+    'HTTP_X_CSRF_TOKEN' => '32WoB4Vd0n3WwCj6feyY9cygMGvLW83H_VyJJSfv05CAEdp2tSWfBJWXUotE2eG8jZZzWI0tiK7MGvwXaYWqog==',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'PATH' => '/bin:/usr/bin',
+    'QUERY_STRING' => 'r=mschoollist%2Fload_zones',
+    'REDIRECT_STATUS' => '200',
+    'REMOTE_ADDR' => '43.224.127.66',
+    'REMOTE_PORT' => '18108',
+    'REQUEST_METHOD' => 'POST',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/g5/web/index.php?r=mschoollist%2Fload_zones',
+    'SCRIPT_FILENAME' => '/home/grade5/public_html/g5/web/index.php',
+    'SCRIPT_NAME' => '/g5/web/index.php',
+    'SERVER_ADDR' => '192.168.11.213',
+    'SERVER_ADMIN' => 'webmaster@bursary.sch.lk',
+    'SERVER_NAME' => 'bursary.sch.lk',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'TZ' => 'America/New_York',
+    'UNIQUE_ID' => 'W3xSqsCoC9UAAGP11JsAAAAu',
+    'PHP_SELF' => '/g5/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1534874282.462584972381591796875,
+    'REQUEST_TIME' => 1534874282,
+    'argv' => [
+        'r=mschoollist%2Fload_zones',
+    ],
+    'argc' => 1,
+]
+[22-Aug-2018 09:36:27 UTC] An Error occurred while handling another error:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/grade5/public_html/g5/controllers/MschoollistController.php on line 193.' in /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/grade5/public_html/g5/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/grade5/public_html/g5/controllers/MschoollistController.php on line 193.' in /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/grade5/public_html/g5/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/grade5/public_html/g5/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTENT_LENGTH' => '76',
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/grade5/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home/grade5/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'PHPSESSID=d409eb632644e5fe1f3485fb91f6a349; _csrf=cafe6307ca9e36044c8ad9a0aad5e91b2b80a824f8e5d3d35960e7fce09ce13ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22PFjZYoorcvQyAckUoXs883PzfTHOz9_3%22%3B%7D',
+    'HTTP_HOST' => 'bursary.sch.lk',
+    'HTTP_REFERER' => 'http://bursary.sch.lk/g5/web/index.php?r=mschoollist%2Fcreate',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0',
+    'HTTP_X_CSRF_TOKEN' => '-3ZPQ5ZX0MsaNi9v8aH26TRJobp7j9bCBTu825lvaF2rMCUZzzi_uXlAfhawwp28WxHSgkO8hrhjb_SU41Y3bg==',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'PATH' => '/bin:/usr/bin',
+    'QUERY_STRING' => 'r=mschoollist%2Fload_zones',
+    'REDIRECT_STATUS' => '200',
+    'REMOTE_ADDR' => '43.224.127.66',
+    'REMOTE_PORT' => '54584',
+    'REQUEST_METHOD' => 'POST',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/g5/web/index.php?r=mschoollist%2Fload_zones',
+    'SCRIPT_FILENAME' => '/home/grade5/public_html/g5/web/index.php',
+    'SCRIPT_NAME' => '/g5/web/index.php',
+    'SERVER_ADDR' => '192.168.11.213',
+    'SERVER_ADMIN' => 'webmaster@bursary.sch.lk',
+    'SERVER_NAME' => 'bursary.sch.lk',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'TZ' => 'America/New_York',
+    'UNIQUE_ID' => 'W30ul8CoC9UAACyfl6UAAAAA',
+    'PHP_SELF' => '/g5/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1534930583.9285221099853515625,
+    'REQUEST_TIME' => 1534930583,
+    'argv' => [
+        'r=mschoollist%2Fload_zones',
+    ],
+    'argc' => 1,
+]
+[22-Aug-2018 09:36:30 UTC] An Error occurred while handling another error:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/grade5/public_html/g5/controllers/MschoollistController.php on line 193.' in /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/grade5/public_html/g5/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/grade5/public_html/g5/controllers/MschoollistController.php on line 193.' in /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/grade5/public_html/g5/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/grade5/public_html/g5/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTENT_LENGTH' => '76',
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/grade5/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home/grade5/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'PHPSESSID=d409eb632644e5fe1f3485fb91f6a349; _csrf=cafe6307ca9e36044c8ad9a0aad5e91b2b80a824f8e5d3d35960e7fce09ce13ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22PFjZYoorcvQyAckUoXs883PzfTHOz9_3%22%3B%7D',
+    'HTTP_HOST' => 'bursary.sch.lk',
+    'HTTP_REFERER' => 'http://bursary.sch.lk/g5/web/index.php?r=mschoollist%2Fcreate',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0',
+    'HTTP_X_CSRF_TOKEN' => '-3ZPQ5ZX0MsaNi9v8aH26TRJobp7j9bCBTu825lvaF2rMCUZzzi_uXlAfhawwp28WxHSgkO8hrhjb_SU41Y3bg==',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'PATH' => '/bin:/usr/bin',
+    'QUERY_STRING' => 'r=mschoollist%2Fload_zones',
+    'REDIRECT_STATUS' => '200',
+    'REMOTE_ADDR' => '43.224.127.66',
+    'REMOTE_PORT' => '54584',
+    'REQUEST_METHOD' => 'POST',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/g5/web/index.php?r=mschoollist%2Fload_zones',
+    'SCRIPT_FILENAME' => '/home/grade5/public_html/g5/web/index.php',
+    'SCRIPT_NAME' => '/g5/web/index.php',
+    'SERVER_ADDR' => '192.168.11.213',
+    'SERVER_ADMIN' => 'webmaster@bursary.sch.lk',
+    'SERVER_NAME' => 'bursary.sch.lk',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'TZ' => 'America/New_York',
+    'UNIQUE_ID' => 'W30unMCoC9UAACyfl6YAAAAA',
+    'PHP_SELF' => '/g5/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1534930589.16108608245849609375,
+    'REQUEST_TIME' => 1534930589,
+    'argv' => [
+        'r=mschoollist%2Fload_zones',
+    ],
+    'argc' => 1,
+]
+[22-Aug-2018 09:40:28 UTC] An Error occurred while handling another error:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/grade5/public_html/g5/controllers/MschoollistController.php on line 213.' in /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/grade5/public_html/g5/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/grade5/public_html/g5/controllers/MschoollistController.php on line 213.' in /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/grade5/public_html/g5/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/grade5/public_html/g5/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTEXT_DOCUMENT_ROOT' => '/home/grade5/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home/grade5/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'PHPSESSID=d409eb632644e5fe1f3485fb91f6a349; _csrf=cafe6307ca9e36044c8ad9a0aad5e91b2b80a824f8e5d3d35960e7fce09ce13ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22PFjZYoorcvQyAckUoXs883PzfTHOz9_3%22%3B%7D',
+    'HTTP_HOST' => 'bursary.sch.lk',
+    'HTTP_REFERER' => 'http://bursary.sch.lk/g5/web/index.php?r=mschoollist%2Fcreate',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0',
+    'HTTP_X_CSRF_TOKEN' => 'NKwY-E96XH0vvzSuI2-8tlGYCXMQ4vhaJmuKOpcntApk6nKiFhUzD0zJZddiDNfjPsB6SyjRqCBAP8J17R7rOQ==',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'PATH' => '/bin:/usr/bin',
+    'QUERY_STRING' => 'r=mschoollist%2Fschool-list&q=w&abc=dd',
+    'REDIRECT_STATUS' => '200',
+    'REMOTE_ADDR' => '43.224.127.66',
+    'REMOTE_PORT' => '54651',
+    'REQUEST_METHOD' => 'GET',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/g5/web/index.php?r=mschoollist%2Fschool-list&q=w&abc=dd',
+    'SCRIPT_FILENAME' => '/home/grade5/public_html/g5/web/index.php',
+    'SCRIPT_NAME' => '/g5/web/index.php',
+    'SERVER_ADDR' => '192.168.11.213',
+    'SERVER_ADMIN' => 'webmaster@bursary.sch.lk',
+    'SERVER_NAME' => 'bursary.sch.lk',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'TZ' => 'America/New_York',
+    'UNIQUE_ID' => 'W30vicCoC9UAAC6p1BcAAAAR',
+    'PHP_SELF' => '/g5/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1534930826.232479095458984375,
+    'REQUEST_TIME' => 1534930826,
+    'argv' => [
+        'r=mschoollist%2Fschool-list&q=w&abc=dd',
+    ],
+    'argc' => 1,
+]
+[22-Aug-2018 09:40:30 UTC] An Error occurred while handling another error:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/grade5/public_html/g5/controllers/MschoollistController.php on line 213.' in /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/grade5/public_html/g5/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/grade5/public_html/g5/controllers/MschoollistController.php on line 213.' in /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/grade5/public_html/g5/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/grade5/public_html/g5/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTEXT_DOCUMENT_ROOT' => '/home/grade5/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home/grade5/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'PHPSESSID=d409eb632644e5fe1f3485fb91f6a349; _csrf=cafe6307ca9e36044c8ad9a0aad5e91b2b80a824f8e5d3d35960e7fce09ce13ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22PFjZYoorcvQyAckUoXs883PzfTHOz9_3%22%3B%7D',
+    'HTTP_HOST' => 'bursary.sch.lk',
+    'HTTP_REFERER' => 'http://bursary.sch.lk/g5/web/index.php?r=mschoollist%2Fcreate',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0',
+    'HTTP_X_CSRF_TOKEN' => 'NKwY-E96XH0vvzSuI2-8tlGYCXMQ4vhaJmuKOpcntApk6nKiFhUzD0zJZddiDNfjPsB6SyjRqCBAP8J17R7rOQ==',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'PATH' => '/bin:/usr/bin',
+    'QUERY_STRING' => 'r=mschoollist%2Fschool-list&q=we&abc=dd',
+    'REDIRECT_STATUS' => '200',
+    'REMOTE_ADDR' => '43.224.127.66',
+    'REMOTE_PORT' => '54653',
+    'REQUEST_METHOD' => 'GET',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/g5/web/index.php?r=mschoollist%2Fschool-list&q=we&abc=dd',
+    'SCRIPT_FILENAME' => '/home/grade5/public_html/g5/web/index.php',
+    'SCRIPT_NAME' => '/g5/web/index.php',
+    'SERVER_ADDR' => '192.168.11.213',
+    'SERVER_ADMIN' => 'webmaster@bursary.sch.lk',
+    'SERVER_NAME' => 'bursary.sch.lk',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'TZ' => 'America/New_York',
+    'UNIQUE_ID' => 'W30visCoC9UAAC5nF7gAAAAW',
+    'PHP_SELF' => '/g5/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1534930827.33839893341064453125,
+    'REQUEST_TIME' => 1534930827,
+    'argv' => [
+        'r=mschoollist%2Fschool-list&q=we&abc=dd',
+    ],
+    'argc' => 1,
+]
+[22-Aug-2018 09:40:31 UTC] An Error occurred while handling another error:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/grade5/public_html/g5/controllers/MschoollistController.php on line 213.' in /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/grade5/public_html/g5/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/grade5/public_html/g5/controllers/MschoollistController.php on line 213.' in /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/grade5/public_html/g5/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/grade5/public_html/g5/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTEXT_DOCUMENT_ROOT' => '/home/grade5/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home/grade5/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'PHPSESSID=d409eb632644e5fe1f3485fb91f6a349; _csrf=cafe6307ca9e36044c8ad9a0aad5e91b2b80a824f8e5d3d35960e7fce09ce13ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22PFjZYoorcvQyAckUoXs883PzfTHOz9_3%22%3B%7D',
+    'HTTP_HOST' => 'bursary.sch.lk',
+    'HTTP_REFERER' => 'http://bursary.sch.lk/g5/web/index.php?r=mschoollist%2Fcreate',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0',
+    'HTTP_X_CSRF_TOKEN' => 'NKwY-E96XH0vvzSuI2-8tlGYCXMQ4vhaJmuKOpcntApk6nKiFhUzD0zJZddiDNfjPsB6SyjRqCBAP8J17R7rOQ==',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'PATH' => '/bin:/usr/bin',
+    'QUERY_STRING' => 'r=mschoollist%2Fschool-list&q=wes&abc=dd',
+    'REDIRECT_STATUS' => '200',
+    'REMOTE_ADDR' => '43.224.127.66',
+    'REMOTE_PORT' => '54654',
+    'REQUEST_METHOD' => 'GET',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/g5/web/index.php?r=mschoollist%2Fschool-list&q=wes&abc=dd',
+    'SCRIPT_FILENAME' => '/home/grade5/public_html/g5/web/index.php',
+    'SCRIPT_NAME' => '/g5/web/index.php',
+    'SERVER_ADDR' => '192.168.11.213',
+    'SERVER_ADMIN' => 'webmaster@bursary.sch.lk',
+    'SERVER_NAME' => 'bursary.sch.lk',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'TZ' => 'America/New_York',
+    'UNIQUE_ID' => 'W30vi8CoC9UAAC36Mj4AAAAO',
+    'PHP_SELF' => '/g5/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1534930828.6012179851531982421875,
+    'REQUEST_TIME' => 1534930828,
+    'argv' => [
+        'r=mschoollist%2Fschool-list&q=wes&abc=dd',
+    ],
+    'argc' => 1,
+]
+[22-Aug-2018 09:40:36 UTC] An Error occurred while handling another error:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/grade5/public_html/g5/controllers/MschoollistController.php on line 213.' in /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/grade5/public_html/g5/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/grade5/public_html/g5/controllers/MschoollistController.php on line 213.' in /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/grade5/public_html/g5/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/grade5/public_html/g5/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTEXT_DOCUMENT_ROOT' => '/home/grade5/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home/grade5/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'PHPSESSID=d409eb632644e5fe1f3485fb91f6a349; _csrf=cafe6307ca9e36044c8ad9a0aad5e91b2b80a824f8e5d3d35960e7fce09ce13ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22PFjZYoorcvQyAckUoXs883PzfTHOz9_3%22%3B%7D',
+    'HTTP_HOST' => 'bursary.sch.lk',
+    'HTTP_REFERER' => 'http://bursary.sch.lk/g5/web/index.php?r=mschoollist%2Fcreate',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0',
+    'HTTP_X_CSRF_TOKEN' => 'NKwY-E96XH0vvzSuI2-8tlGYCXMQ4vhaJmuKOpcntApk6nKiFhUzD0zJZddiDNfjPsB6SyjRqCBAP8J17R7rOQ==',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'PATH' => '/bin:/usr/bin',
+    'QUERY_STRING' => 'r=mschoollist%2Fschool-list&q=w&abc=dd',
+    'REDIRECT_STATUS' => '200',
+    'REMOTE_ADDR' => '43.224.127.66',
+    'REMOTE_PORT' => '54651',
+    'REQUEST_METHOD' => 'GET',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/g5/web/index.php?r=mschoollist%2Fschool-list&q=w&abc=dd',
+    'SCRIPT_FILENAME' => '/home/grade5/public_html/g5/web/index.php',
+    'SCRIPT_NAME' => '/g5/web/index.php',
+    'SERVER_ADDR' => '192.168.11.213',
+    'SERVER_ADMIN' => 'webmaster@bursary.sch.lk',
+    'SERVER_NAME' => 'bursary.sch.lk',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'TZ' => 'America/New_York',
+    'UNIQUE_ID' => 'W30vksCoC9UAAC6p1BoAAAAR',
+    'PHP_SELF' => '/g5/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1534930835.3199789524078369140625,
+    'REQUEST_TIME' => 1534930835,
+    'argv' => [
+        'r=mschoollist%2Fschool-list&q=w&abc=dd',
+    ],
+    'argc' => 1,
+]
+[22-Aug-2018 09:40:39 UTC] An Error occurred while handling another error:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/grade5/public_html/g5/controllers/MschoollistController.php on line 213.' in /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/grade5/public_html/g5/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/grade5/public_html/g5/controllers/MschoollistController.php on line 213.' in /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/grade5/public_html/g5/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/grade5/public_html/g5/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTEXT_DOCUMENT_ROOT' => '/home/grade5/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home/grade5/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'PHPSESSID=d409eb632644e5fe1f3485fb91f6a349; _csrf=cafe6307ca9e36044c8ad9a0aad5e91b2b80a824f8e5d3d35960e7fce09ce13ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22PFjZYoorcvQyAckUoXs883PzfTHOz9_3%22%3B%7D',
+    'HTTP_HOST' => 'bursary.sch.lk',
+    'HTTP_REFERER' => 'http://bursary.sch.lk/g5/web/index.php?r=mschoollist%2Fcreate',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0',
+    'HTTP_X_CSRF_TOKEN' => 'NKwY-E96XH0vvzSuI2-8tlGYCXMQ4vhaJmuKOpcntApk6nKiFhUzD0zJZddiDNfjPsB6SyjRqCBAP8J17R7rOQ==',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'PATH' => '/bin:/usr/bin',
+    'QUERY_STRING' => 'r=mschoollist%2Fschool-list&q=we&abc=dd',
+    'REDIRECT_STATUS' => '200',
+    'REMOTE_ADDR' => '43.224.127.66',
+    'REMOTE_PORT' => '54654',
+    'REQUEST_METHOD' => 'GET',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/g5/web/index.php?r=mschoollist%2Fschool-list&q=we&abc=dd',
+    'SCRIPT_FILENAME' => '/home/grade5/public_html/g5/web/index.php',
+    'SCRIPT_NAME' => '/g5/web/index.php',
+    'SERVER_ADDR' => '192.168.11.213',
+    'SERVER_ADMIN' => 'webmaster@bursary.sch.lk',
+    'SERVER_NAME' => 'bursary.sch.lk',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'TZ' => 'America/New_York',
+    'UNIQUE_ID' => 'W30vlMCoC9UAAC36Mj8AAAAO',
+    'PHP_SELF' => '/g5/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1534930837.0764210224151611328125,
+    'REQUEST_TIME' => 1534930837,
+    'argv' => [
+        'r=mschoollist%2Fschool-list&q=we&abc=dd',
+    ],
+    'argc' => 1,
+]
+[22-Aug-2018 09:40:40 UTC] An Error occurred while handling another error:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/grade5/public_html/g5/controllers/MschoollistController.php on line 213.' in /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/grade5/public_html/g5/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/grade5/public_html/g5/controllers/MschoollistController.php on line 213.' in /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/grade5/public_html/g5/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/grade5/public_html/g5/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTEXT_DOCUMENT_ROOT' => '/home/grade5/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home/grade5/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'PHPSESSID=d409eb632644e5fe1f3485fb91f6a349; _csrf=cafe6307ca9e36044c8ad9a0aad5e91b2b80a824f8e5d3d35960e7fce09ce13ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22PFjZYoorcvQyAckUoXs883PzfTHOz9_3%22%3B%7D',
+    'HTTP_HOST' => 'bursary.sch.lk',
+    'HTTP_REFERER' => 'http://bursary.sch.lk/g5/web/index.php?r=mschoollist%2Fcreate',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0',
+    'HTTP_X_CSRF_TOKEN' => 'NKwY-E96XH0vvzSuI2-8tlGYCXMQ4vhaJmuKOpcntApk6nKiFhUzD0zJZddiDNfjPsB6SyjRqCBAP8J17R7rOQ==',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'PATH' => '/bin:/usr/bin',
+    'QUERY_STRING' => 'r=mschoollist%2Fschool-list&q=wes&abc=dd',
+    'REDIRECT_STATUS' => '200',
+    'REMOTE_ADDR' => '43.224.127.66',
+    'REMOTE_PORT' => '54651',
+    'REQUEST_METHOD' => 'GET',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/g5/web/index.php?r=mschoollist%2Fschool-list&q=wes&abc=dd',
+    'SCRIPT_FILENAME' => '/home/grade5/public_html/g5/web/index.php',
+    'SCRIPT_NAME' => '/g5/web/index.php',
+    'SERVER_ADDR' => '192.168.11.213',
+    'SERVER_ADMIN' => 'webmaster@bursary.sch.lk',
+    'SERVER_NAME' => 'bursary.sch.lk',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'TZ' => 'America/New_York',
+    'UNIQUE_ID' => 'W30vlcCoC9UAAC6p1BsAAAAR',
+    'PHP_SELF' => '/g5/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1534930838.6316130161285400390625,
+    'REQUEST_TIME' => 1534930838,
+    'argv' => [
+        'r=mschoollist%2Fschool-list&q=wes&abc=dd',
+    ],
+    'argc' => 1,
+]
+[22-Aug-2018 09:50:20 UTC] An Error occurred while handling another error:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/grade5/public_html/g5/controllers/MschoollistController.php on line 194.' in /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/grade5/public_html/g5/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/grade5/public_html/g5/controllers/MschoollistController.php on line 194.' in /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/grade5/public_html/g5/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/grade5/public_html/g5/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTENT_LENGTH' => '76',
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/grade5/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home/grade5/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'PHPSESSID=d409eb632644e5fe1f3485fb91f6a349; _csrf=cafe6307ca9e36044c8ad9a0aad5e91b2b80a824f8e5d3d35960e7fce09ce13ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22PFjZYoorcvQyAckUoXs883PzfTHOz9_3%22%3B%7D',
+    'HTTP_HOST' => 'bursary.sch.lk',
+    'HTTP_REFERER' => 'http://bursary.sch.lk/g5/web/index.php?r=mschoollist%2Fcreate',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0',
+    'HTTP_X_CSRF_TOKEN' => 'yzaeWvDssgu1tYXq31hXmG8baOy-oRUg1hG_ITX6btebcPQAqYPdedbD1JOeOzzNAEMb1IaSRVqwRfduT8Mx5A==',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'PATH' => '/bin:/usr/bin',
+    'QUERY_STRING' => 'r=mschoollist%2Fload_zones',
+    'REDIRECT_STATUS' => '200',
+    'REMOTE_ADDR' => '43.224.127.66',
+    'REMOTE_PORT' => '54787',
+    'REQUEST_METHOD' => 'POST',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/g5/web/index.php?r=mschoollist%2Fload_zones',
+    'SCRIPT_FILENAME' => '/home/grade5/public_html/g5/web/index.php',
+    'SCRIPT_NAME' => '/g5/web/index.php',
+    'SERVER_ADDR' => '192.168.11.213',
+    'SERVER_ADMIN' => 'webmaster@bursary.sch.lk',
+    'SERVER_NAME' => 'bursary.sch.lk',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'TZ' => 'America/New_York',
+    'UNIQUE_ID' => 'W30x3MCoC9UAADPUt9AAAAAC',
+    'PHP_SELF' => '/g5/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1534931420.31962108612060546875,
+    'REQUEST_TIME' => 1534931420,
+    'argv' => [
+        'r=mschoollist%2Fload_zones',
+    ],
+    'argc' => 1,
+]
+[22-Aug-2018 09:56:25 UTC] PHP Parse error:  syntax error, unexpected 'ob_start' (T_STRING), expecting function (T_FUNCTION) in /home/grade5/public_html/g5/controllers/MschoollistController.php on line 36
+[22-Aug-2018 10:17:34 UTC] An Error occurred while handling another error:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/grade5/public_html/g5/controllers/TblbankbranchController.php on line 179.' in /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/grade5/public_html/g5/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/grade5/public_html/g5/controllers/TblbankbranchController.php on line 179.' in /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/grade5/public_html/g5/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/grade5/public_html/g5/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTENT_LENGTH' => '71',
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/grade5/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home/grade5/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'PHPSESSID=df92deaccd9e069454e8422500e90dc5; _csrf=7dbc8a4422710f5cb30a0087c30d784aa27682398137d0166e855e7e2a8227daa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22UGEue9DgvE7ADI_RxAou-4TkVj7_qUgj%22%3B%7D',
+    'HTTP_HOST' => 'bursary.sch.lk',
+    'HTTP_REFERER' => 'http://bursary.sch.lk/g5/web/index.php?r=tstudentinfo%2Fupdate&id=15089',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0',
+    'HTTP_X_CSRF_TOKEN' => 'X4T1F7AYR-quJUNiKJk6_ct1UmCg3w5mB-hSjnpiSroKw7Bi1SEDjdhgdCNs0GWvszQ9FY3rWg1RgmXRCzct0A==',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'PATH' => '/bin:/usr/bin',
+    'QUERY_STRING' => 'r=tblbankbranch%2Fload_branches',
+    'REDIRECT_STATUS' => '200',
+    'REMOTE_ADDR' => '43.224.127.66',
+    'REMOTE_PORT' => '55084',
+    'REQUEST_METHOD' => 'POST',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/g5/web/index.php?r=tblbankbranch%2Fload_branches',
+    'SCRIPT_FILENAME' => '/home/grade5/public_html/g5/web/index.php',
+    'SCRIPT_NAME' => '/g5/web/index.php',
+    'SERVER_ADDR' => '192.168.11.213',
+    'SERVER_ADMIN' => 'webmaster@bursary.sch.lk',
+    'SERVER_NAME' => 'bursary.sch.lk',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'TZ' => 'America/New_York',
+    'UNIQUE_ID' => 'W304PsCoC9UAAD9xl4oAAAAT',
+    'PHP_SELF' => '/g5/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1534933054.0626909732818603515625,
+    'REQUEST_TIME' => 1534933054,
+    'argv' => [
+        'r=tblbankbranch%2Fload_branches',
+    ],
+    'argc' => 1,
+]
+[22-Aug-2018 10:18:33 UTC] An Error occurred while handling another error:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/grade5/public_html/g5/controllers/TblbankbranchController.php on line 179.' in /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/grade5/public_html/g5/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/grade5/public_html/g5/controllers/TblbankbranchController.php on line 179.' in /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/grade5/public_html/g5/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/grade5/public_html/g5/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTENT_LENGTH' => '71',
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/grade5/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home/grade5/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'PHPSESSID=df92deaccd9e069454e8422500e90dc5; _csrf=7dbc8a4422710f5cb30a0087c30d784aa27682398137d0166e855e7e2a8227daa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22UGEue9DgvE7ADI_RxAou-4TkVj7_qUgj%22%3B%7D',
+    'HTTP_HOST' => 'bursary.sch.lk',
+    'HTTP_REFERER' => 'http://bursary.sch.lk/g5/web/index.php?r=tstudentinfo%2Fupdate&id=15089',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0',
+    'HTTP_X_CSRF_TOKEN' => 'dZpRxVMIf4YchK1VjwU8U94wqebll8zLRGgwPLCjcEIg3RSwNjE74WrBmhTLTGMBpnHGk8ijmKASAgdjwfYXKA==',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'PATH' => '/bin:/usr/bin',
+    'QUERY_STRING' => 'r=tblbankbranch%2Fload_branches',
+    'REDIRECT_STATUS' => '200',
+    'REMOTE_ADDR' => '43.224.127.66',
+    'REMOTE_PORT' => '55095',
+    'REQUEST_METHOD' => 'POST',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/g5/web/index.php?r=tblbankbranch%2Fload_branches',
+    'SCRIPT_FILENAME' => '/home/grade5/public_html/g5/web/index.php',
+    'SCRIPT_NAME' => '/g5/web/index.php',
+    'SERVER_ADDR' => '192.168.11.213',
+    'SERVER_ADMIN' => 'webmaster@bursary.sch.lk',
+    'SERVER_NAME' => 'bursary.sch.lk',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'TZ' => 'America/New_York',
+    'UNIQUE_ID' => 'W304ecCoC9UAAEIDKxUAAAAO',
+    'PHP_SELF' => '/g5/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1534933113.4906780719757080078125,
+    'REQUEST_TIME' => 1534933113,
+    'argv' => [
+        'r=tblbankbranch%2Fload_branches',
+    ],
+    'argc' => 1,
+]
+[22-Aug-2018 10:18:42 UTC] An Error occurred while handling another error:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/grade5/public_html/g5/controllers/TblbankbranchController.php on line 179.' in /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/grade5/public_html/g5/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/grade5/public_html/g5/controllers/TblbankbranchController.php on line 179.' in /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/grade5/public_html/g5/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/grade5/public_html/g5/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTENT_LENGTH' => '71',
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/grade5/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home/grade5/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'PHPSESSID=df92deaccd9e069454e8422500e90dc5; _csrf=7dbc8a4422710f5cb30a0087c30d784aa27682398137d0166e855e7e2a8227daa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22UGEue9DgvE7ADI_RxAou-4TkVj7_qUgj%22%3B%7D',
+    'HTTP_HOST' => 'bursary.sch.lk',
+    'HTTP_REFERER' => 'http://bursary.sch.lk/g5/web/index.php?r=tstudentinfo%2Fupdate&id=15089',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0',
+    'HTTP_X_CSRF_TOKEN' => 'dZpRxVMIf4YchK1VjwU8U94wqebll8zLRGgwPLCjcEIg3RSwNjE74WrBmhTLTGMBpnHGk8ijmKASAgdjwfYXKA==',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'PATH' => '/bin:/usr/bin',
+    'QUERY_STRING' => 'r=tblbankbranch%2Fload_branches',
+    'REDIRECT_STATUS' => '200',
+    'REMOTE_ADDR' => '43.224.127.66',
+    'REMOTE_PORT' => '55096',
+    'REQUEST_METHOD' => 'POST',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/g5/web/index.php?r=tblbankbranch%2Fload_branches',
+    'SCRIPT_FILENAME' => '/home/grade5/public_html/g5/web/index.php',
+    'SCRIPT_NAME' => '/g5/web/index.php',
+    'SERVER_ADDR' => '192.168.11.213',
+    'SERVER_ADMIN' => 'webmaster@bursary.sch.lk',
+    'SERVER_NAME' => 'bursary.sch.lk',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'TZ' => 'America/New_York',
+    'UNIQUE_ID' => 'W304gsCoC9UAAD5dTAYAAAAI',
+    'PHP_SELF' => '/g5/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1534933122.299829006195068359375,
+    'REQUEST_TIME' => 1534933122,
+    'argv' => [
+        'r=tblbankbranch%2Fload_branches',
+    ],
+    'argc' => 1,
+]
+[22-Aug-2018 10:18:46 UTC] An Error occurred while handling another error:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/grade5/public_html/g5/controllers/TblbankbranchController.php on line 179.' in /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/grade5/public_html/g5/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/grade5/public_html/g5/controllers/TblbankbranchController.php on line 179.' in /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/grade5/public_html/g5/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/grade5/public_html/g5/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTENT_LENGTH' => '71',
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/grade5/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home/grade5/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'PHPSESSID=df92deaccd9e069454e8422500e90dc5; _csrf=7dbc8a4422710f5cb30a0087c30d784aa27682398137d0166e855e7e2a8227daa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22UGEue9DgvE7ADI_RxAou-4TkVj7_qUgj%22%3B%7D',
+    'HTTP_HOST' => 'bursary.sch.lk',
+    'HTTP_REFERER' => 'http://bursary.sch.lk/g5/web/index.php?r=tstudentinfo%2Fupdate&id=15089',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0',
+    'HTTP_X_CSRF_TOKEN' => 'dZpRxVMIf4YchK1VjwU8U94wqebll8zLRGgwPLCjcEIg3RSwNjE74WrBmhTLTGMBpnHGk8ijmKASAgdjwfYXKA==',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'PATH' => '/bin:/usr/bin',
+    'QUERY_STRING' => 'r=tblbankbranch%2Fload_branches',
+    'REDIRECT_STATUS' => '200',
+    'REMOTE_ADDR' => '43.224.127.66',
+    'REMOTE_PORT' => '55096',
+    'REQUEST_METHOD' => 'POST',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/g5/web/index.php?r=tblbankbranch%2Fload_branches',
+    'SCRIPT_FILENAME' => '/home/grade5/public_html/g5/web/index.php',
+    'SCRIPT_NAME' => '/g5/web/index.php',
+    'SERVER_ADDR' => '192.168.11.213',
+    'SERVER_ADMIN' => 'webmaster@bursary.sch.lk',
+    'SERVER_NAME' => 'bursary.sch.lk',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'TZ' => 'America/New_York',
+    'UNIQUE_ID' => 'W304hsCoC9UAAD5dTAcAAAAI',
+    'PHP_SELF' => '/g5/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1534933126.1847651004791259765625,
+    'REQUEST_TIME' => 1534933126,
+    'argv' => [
+        'r=tblbankbranch%2Fload_branches',
+    ],
+    'argc' => 1,
+]
+[23-Aug-2018 02:21:34 UTC] An Error occurred while handling another error:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/grade5/public_html/g5/controllers/SiteController.php on line 171.' in /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/grade5/public_html/g5/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/grade5/public_html/g5/controllers/SiteController.php on line 171.' in /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/grade5/public_html/g5/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/grade5/public_html/g5/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTENT_LENGTH' => '76',
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/grade5/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home/grade5/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'PHPSESSID=815cc10f1d5b0c82f3d5a7cdcaa70991; _csrf=4c3705dede7fba7c78b9838d85e0a48fdf0b411a822de5e67531365872c23638a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22w3O8V-1fKc2liptlFaDwGSffwb9V-2lt%22%3B%7D',
+    'HTTP_HOST' => 'bursary.sch.lk',
+    'HTTP_REFERER' => 'http://bursary.sch.lk/g5/web/index.php?r=user-management%2Fuser%2Fcreate',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0',
+    'HTTP_X_CSRF_TOKEN' => 'IVyMEJCukrc5IFd4j6lfZmWTLBuLUmOBsvm0efS0AO5Wb8MoxoOj0XJDZRTm2SsKI_JobMwBBefFm40v2YZsmg==',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'PATH' => '/bin:/usr/bin',
+    'QUERY_STRING' => 'r=site%2Fload_user_level_values',
+    'REDIRECT_STATUS' => '200',
+    'REMOTE_ADDR' => '43.224.127.66',
+    'REMOTE_PORT' => '55667',
+    'REQUEST_METHOD' => 'POST',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/g5/web/index.php?r=site%2Fload_user_level_values',
+    'SCRIPT_FILENAME' => '/home/grade5/public_html/g5/web/index.php',
+    'SCRIPT_NAME' => '/g5/web/index.php',
+    'SERVER_ADDR' => '192.168.11.213',
+    'SERVER_ADMIN' => 'webmaster@bursary.sch.lk',
+    'SERVER_NAME' => 'bursary.sch.lk',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'TZ' => 'America/New_York',
+    'UNIQUE_ID' => 'W34aLcCoC9UAAHCPjQkAAAAM',
+    'PHP_SELF' => '/g5/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1534990893.5500009059906005859375,
+    'REQUEST_TIME' => 1534990893,
+    'argv' => [
+        'r=site%2Fload_user_level_values',
+    ],
+    'argc' => 1,
+]
+[23-Aug-2018 02:21:37 UTC] An Error occurred while handling another error:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/grade5/public_html/g5/controllers/SiteController.php on line 187.' in /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/grade5/public_html/g5/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/grade5/public_html/g5/controllers/SiteController.php on line 187.' in /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/grade5/public_html/g5/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/grade5/public_html/g5/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTENT_LENGTH' => '72',
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/grade5/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home/grade5/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'PHPSESSID=815cc10f1d5b0c82f3d5a7cdcaa70991; _csrf=4c3705dede7fba7c78b9838d85e0a48fdf0b411a822de5e67531365872c23638a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22w3O8V-1fKc2liptlFaDwGSffwb9V-2lt%22%3B%7D',
+    'HTTP_HOST' => 'bursary.sch.lk',
+    'HTTP_REFERER' => 'http://bursary.sch.lk/g5/web/index.php?r=user-management%2Fuser%2Fcreate',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0',
+    'HTTP_X_CSRF_TOKEN' => 'IVyMEJCukrc5IFd4j6lfZmWTLBuLUmOBsvm0efS0AO5Wb8MoxoOj0XJDZRTm2SsKI_JobMwBBefFm40v2YZsmg==',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'PATH' => '/bin:/usr/bin',
+    'QUERY_STRING' => 'r=site%2Fload_user_level_values',
+    'REDIRECT_STATUS' => '200',
+    'REMOTE_ADDR' => '43.224.127.66',
+    'REMOTE_PORT' => '55667',
+    'REQUEST_METHOD' => 'POST',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/g5/web/index.php?r=site%2Fload_user_level_values',
+    'SCRIPT_FILENAME' => '/home/grade5/public_html/g5/web/index.php',
+    'SCRIPT_NAME' => '/g5/web/index.php',
+    'SERVER_ADDR' => '192.168.11.213',
+    'SERVER_ADMIN' => 'webmaster@bursary.sch.lk',
+    'SERVER_NAME' => 'bursary.sch.lk',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'TZ' => 'America/New_York',
+    'UNIQUE_ID' => 'W34aMcCoC9UAAHCPjQoAAAAM',
+    'PHP_SELF' => '/g5/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1534990897.3790810108184814453125,
+    'REQUEST_TIME' => 1534990897,
+    'argv' => [
+        'r=site%2Fload_user_level_values',
+    ],
+    'argc' => 1,
+]
+[23-Aug-2018 09:51:04 UTC] An Error occurred while handling another error:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/grade5/public_html/g5/controllers/TstudentinfoController.php on line 356.' in /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/grade5/public_html/g5/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/grade5/public_html/g5/controllers/TstudentinfoController.php on line 356.' in /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/grade5/public_html/g5/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/grade5/public_html/g5/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTENT_LENGTH' => '227',
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/grade5/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home/grade5/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => '*/*',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'PHPSESSID=36af01bbb23f66ca74ab8cd1e70fd43f; _csrf=49179cffd7af17aac10373e47d67c24030644f563969f29ae7787442fefdd54aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22q7lhIyoB_G0iZ9Fx_s010RFhYzkfMeBG%22%3B%7D',
+    'HTTP_HOST' => 'bursary.sch.lk',
+    'HTTP_ORIGIN' => 'http://bursary.sch.lk',
+    'HTTP_REFERER' => 'http://bursary.sch.lk/g5/web/index.php?r=tstudentinfo/bursary_school_rpt',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+    'HTTP_X_CSRF_TOKEN' => '_UQaNypOZVYCQEa6tkyZHMcZW94oFkTColDqQRNPT-OMc3ZfYzcKFF0HdtPsdd9kmGpr7xhEAqr7KoEnXioNpA==',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'PATH' => '/bin:/usr/bin',
+    'QUERY_STRING' => 'r=tstudentinfo/load_school_grade_data',
+    'REDIRECT_STATUS' => '200',
+    'REMOTE_ADDR' => '43.224.127.66',
+    'REMOTE_PORT' => '55914',
+    'REQUEST_METHOD' => 'POST',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/g5/web/index.php?r=tstudentinfo/load_school_grade_data',
+    'SCRIPT_FILENAME' => '/home/grade5/public_html/g5/web/index.php',
+    'SCRIPT_NAME' => '/g5/web/index.php',
+    'SERVER_ADDR' => '192.168.11.213',
+    'SERVER_ADMIN' => 'webmaster@bursary.sch.lk',
+    'SERVER_NAME' => 'bursary.sch.lk',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'TZ' => 'America/New_York',
+    'UNIQUE_ID' => 'W36DiMCoC9UAAAQG4mIAAAAL',
+    'PHP_SELF' => '/g5/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1535017864.214274883270263671875,
+    'REQUEST_TIME' => 1535017864,
+    'argv' => [
+        'r=tstudentinfo/load_school_grade_data',
+    ],
+    'argc' => 1,
+]
+[28-Aug-2018 08:10:55 UTC] An Error occurred while handling another error:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/grade5/public_html/g5/controllers/TstudentinfoController.php on line 356.' in /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/grade5/public_html/g5/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/grade5/public_html/g5/controllers/TstudentinfoController.php on line 356.' in /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/grade5/public_html/g5/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/grade5/public_html/g5/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTENT_LENGTH' => '227',
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/grade5/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home/grade5/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => '*/*',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'PHPSESSID=495fb8be7bef77002d83f89cef05b945; _csrf=d476f185543ceeebf65c035bd766d24e7188c7b9a02c8bd1f9f756b54b3c261da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EAryR5XxvNgSkOVFSG9okCI4uawI35rq%22%3B%7D',
+    'HTTP_HOST' => 'bursary.sch.lk',
+    'HTTP_REFERER' => 'http://bursary.sch.lk/g5/web/index.php?r=tstudentinfo/bursary_school_rpt',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0',
+    'HTTP_X_CSRF_TOKEN' => 'Ix1OawSEOffw74l0Yosmq_hmelRsPwuEXUur5QsO2t1mXDwSVrFhj4ah7icJxHDtqyFDOwd8QrAoKtysODuorA==',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'PATH' => '/bin:/usr/bin',
+    'QUERY_STRING' => 'r=tstudentinfo/load_school_grade_data',
+    'REDIRECT_STATUS' => '200',
+    'REMOTE_ADDR' => '43.224.127.66',
+    'REMOTE_PORT' => '58626',
+    'REQUEST_METHOD' => 'POST',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/g5/web/index.php?r=tstudentinfo/load_school_grade_data',
+    'SCRIPT_FILENAME' => '/home/grade5/public_html/g5/web/index.php',
+    'SCRIPT_NAME' => '/g5/web/index.php',
+    'SERVER_ADDR' => '192.168.11.213',
+    'SERVER_ADMIN' => 'webmaster@bursary.sch.lk',
+    'SERVER_NAME' => 'bursary.sch.lk',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'TZ' => 'America/New_York',
+    'UNIQUE_ID' => 'W4UDj8CoC9UAAAPFKyMAAAAb',
+    'PHP_SELF' => '/g5/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1535443855.4036180973052978515625,
+    'REQUEST_TIME' => 1535443855,
+    'argv' => [
+        'r=tstudentinfo/load_school_grade_data',
+    ],
+    'argc' => 1,
+]
+[28-Aug-2018 08:11:07 UTC] An Error occurred while handling another error:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/grade5/public_html/g5/controllers/TstudentinfoController.php on line 356.' in /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/grade5/public_html/g5/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/grade5/public_html/g5/controllers/TstudentinfoController.php on line 356.' in /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/grade5/public_html/g5/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/grade5/public_html/g5/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/grade5/public_html/g5/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTENT_LENGTH' => '227',
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/grade5/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home/grade5/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => '*/*',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'PHPSESSID=495fb8be7bef77002d83f89cef05b945; _csrf=d476f185543ceeebf65c035bd766d24e7188c7b9a02c8bd1f9f756b54b3c261da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EAryR5XxvNgSkOVFSG9okCI4uawI35rq%22%3B%7D',
+    'HTTP_HOST' => 'bursary.sch.lk',
+    'HTTP_REFERER' => 'http://bursary.sch.lk/g5/web/index.php?r=tstudentinfo/bursary_school_rpt',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0',
+    'HTTP_X_CSRF_TOKEN' => 'Ix1OawSEOffw74l0Yosmq_hmelRsPwuEXUur5QsO2t1mXDwSVrFhj4ah7icJxHDtqyFDOwd8QrAoKtysODuorA==',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'PATH' => '/bin:/usr/bin',
+    'QUERY_STRING' => 'r=tstudentinfo/load_school_grade_data',
+    'REDIRECT_STATUS' => '200',
+    'REMOTE_ADDR' => '43.224.127.66',
+    'REMOTE_PORT' => '58632',
+    'REQUEST_METHOD' => 'POST',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/g5/web/index.php?r=tstudentinfo/load_school_grade_data',
+    'SCRIPT_FILENAME' => '/home/grade5/public_html/g5/web/index.php',
+    'SCRIPT_NAME' => '/g5/web/index.php',
+    'SERVER_ADDR' => '192.168.11.213',
+    'SERVER_ADMIN' => 'webmaster@bursary.sch.lk',
+    'SERVER_NAME' => 'bursary.sch.lk',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'TZ' => 'America/New_York',
+    'UNIQUE_ID' => 'W4UDm8CoC9UAAAQqnxEAAAAI',
+    'PHP_SELF' => '/g5/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1535443867.4311869144439697265625,
+    'REQUEST_TIME' => 1535443867,
+    'argv' => [
+        'r=tstudentinfo/load_school_grade_data',
+    ],
+    'argc' => 1,
+]

@@ -1,0 +1,140 @@
+table, p, a{
+	color: #000 !important;
+	font-size: 12px;
+}
+
+table{
+	margin-top: 25px;
+	/*border: 1px solid #000 !important;*/
+}
+
+table tr th,
+table tr td{
+	padding: 10px 15px;
+	/*border: 0.5px solid #000 !important;*/
+	/*border-color: #000;*/
+	/*box-shadow: none !important;*/
+}
+
+table tr th{
+	background-color: #8faad8;
+	color: #fff;
+}
+
+h2{
+	margin-bottom: 20px;
+	color: #000;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.p-bold{
+	font-weight: bold;
+}
+.margin-bottm-none{
+	margin-bottom: 0 !important;
+}
+.text-align-left{
+	text-align: left !important;
+}
+.text-align-center{
+	text-align: center;
+}
+.text-align-right{
+	text-align: right;
+}
+
+table .border-none{
+	border: none;
+}
+
+.invoice .left-section,
+.invoice .right-section{
+	display: inline-block !important;
+	width: 45% !important;
+}
+
+.invoice .left-section{
+	float: left;
+}
+.invoice .right-section{
+	float: right;
+	text-align: right;
+}
+
+.company-logo{
+	max-width: 100px;
+	float: right;
+}
+
+/*----------------------  trial-balance-create  ------------------*/
+
+.trial-balance-create h1{
+	font-size: 10px !important;
+	margin-bottom: 0 !important;
+}
+
+.trial-balance-create table{
+	margin-top: 10px !important;
+}
+
+.invoice h1,
+.invoice h2.panel-title,
+.invoice h3{
+    margin-bottom: 15px;
+    color: #000;
+	text-align: center !important;
+	font-weight: bold;
+}
+.invoice h1{
+	margin-top: 0 !important;
+	font-size: 20px;
+}
+.invoice h2.panel-title{
+	font-size: 18px;
+}
+.invoice h3{
+    margin-bottom: 0px !important;
+	font-size: 12px;
+}
+
+
+.trial-balance-create table,
+.trial-balance-create table tr,
+.trial-balance-create table tr td,
+.trial-balance-create table tr th,{
+	border: none !important;
+}
+.trial-balance-create table tr th{
+	background-color: #fff;
+	color: #000;
+}
+
+.trial-balance-create table thead tr{
+	border-bottom: 0.5px solid #000 !important;
+}
+
+.trial-balance-create strong{
+	font-weight: bold;
+}
+
+.trial-balance-create tr.tr-net-profit{
+	border-top: 0.5px solid #000 !important;
+	border-bottom: 0.5px solid #000 !important;
+	color: #000;
+	font-weight: bold;
+}
+.trial-balance-create table tr td p{
+	font-size: 13px !important;
+}
+.trial-balance-create tr td.text-align-right{
+	float: right !important;
+	text-align: right !important;
+}
+
+
+/*-----------  Receivable from debtors ---------*/
+
+table tr td{
+	border-bottom: 0.5px solid #eee !important;
+}
